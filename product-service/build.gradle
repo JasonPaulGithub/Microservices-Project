@@ -1,0 +1,12 @@
+group 'com.jasonpaul'
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb:3.0.7'
+    implementation 'org.springframework.boot:spring-boot-starter-web:3.1.0'
+    compileOnly 'org.projectlombok:lombok:1.18.26'
+    annotationProcessor 'org.projectlombok:lombok:1.18.26'
+}
+
+test {
+    useJUnitPlatform()
+}
