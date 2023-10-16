@@ -1,11 +1,7 @@
 package com.jasonpaul.inventoryservice;
 
-import com.jasonpaul.inventoryservice.model.Inventory;
-import com.jasonpaul.inventoryservice.repository.InventoryRepository;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class InventoryServiceApplication {
